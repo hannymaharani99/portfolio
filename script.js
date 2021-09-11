@@ -660,7 +660,7 @@ function randomQuotes() {
     tweetButton(randomNum);
 
   } else {
-    resultQuote = element.innerHTML = '<div class="warning"><span>WARNING</span><p> Mago, find somewhere else to stick your cock. <span class="cursor blink">&#9646;</span></p></div>';
+    resultQuote = element.innerHTML = '<div class="warning"><span>WARNING</span><p> you have reached the quotes <span class="cursor blink">&#9646;</span></p></div>';
     console.log('No more new quotes!');
   }
 
