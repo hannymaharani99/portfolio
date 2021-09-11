@@ -11,8 +11,8 @@ var quotes = [{
   author: 'Ted Mosby',
   link: '#'
 }, {
-  quote: 'Why is your penis on a dead girl’s phone?',
-  author: 'Annalise Keating (How to get away with murder)',
+  quote: 'sometimes I\'m tired of this world',
+  author: 'me probably',
   link: '#'
 }, {
   quote: 'I’m willing to let your child wither and die inside you if that’s what’s required.',
