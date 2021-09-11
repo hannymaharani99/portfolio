@@ -571,113 +571,61 @@ var quotes = [{
   author: 'Someone',
   link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'They showed themselves, the top 1% of the 1%, the ones in control, the ones who play God without permission. And now I\'m gonna take them down',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'How do I take off a mask when it stops being a mask, when it\'s as much a part of me as I am?',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'There are some people out there… And it doesn’t happen a lot. It’s rare. But they refuse to let you hate them. In fact, they care about you in spite of it. And the really special ones, they’re relentless at it. Doesn’t matter what you do to them. They take it and care about you anyway. They don’t abandon you, no matter how many reasons you give them. No matter how much you’re practically begging them to leave. And you wanna know why? Because they feel something for me that I can’t… They love me',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'What if changing the world was just about being here, by showing up no matter how many times we get told we don’t belong, by staying true even when we’re shamed into being false, by believing in ourselves even when we’re told we’re too different? And if we all held on to that, if we refuse to budge and fall in line, if we stood our ground for long enough, just maybe… The world can’t help but change around us.',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'We’re all living in each other’s paranoia.',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'I’m good at reading people. My secret? I look for the worst in them.',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'I’ve never found it hard to hack most people. If you listen to them, watch them, their vulnerabilities are like a neon sign screwed into their heads.',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: '…I never want to be right about my hacks, but people always find a way to disappoint.',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'It\'s one thing to question your mind; it\'s another to question your eyes and ears. But, then again, isn\'t it all the same? Our senses just mediocre inputs to our brain? Sure, we rely on them, trust they accurately portray the real world around us, but what if the haunting truth is they can\'t? That what we perceive isn\'t the real world at all, but just our mind\'s best guess? That all we really have is a garbled reality, a truly fuzzy picture we will never make out?',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'Annihilation is always the answer. We destroy parts of ourselves every day. We Photoshop our warts away. We edit the parts we hate about ourselves, modify the parts we think people hate. We curate our identity, carve it, distill it. Krista\'s wrong. Annihilation is all we are',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'Control can sometimes be an illusion. But sometimes you need illusions to gain control. Fantasy is an easy way to give meaning to the world. To cloak our harsh reality with escapist comfort. After all, isn\'t that why we surround ourselves with so many screens? So we can avoid seeing? So we can avoid each other? So we can avoid truth?',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'The world itself\'s just one big hoax. Spamming each other with our running commentary of bullshit, masquerading as insight, our social media faking as intimacy. Or is it that we voted for this? Not with our rigged elections, but with our things, our property, our money. I\'m not saying anything new. We all know why we do this, not because Hunger Games books make us happy, but because we wanna be sedated. Because it\'s painful not to pretend, because we\'re cowards.',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
-}, {
-  quote: '',
-  author: '',
-  link: '',
+  quote: 'I wanted to save the world.',
+  author: 'Eliott (Mr. Robot)',
+  link: '#',
 }];
 
 var arrRandomNum = [];
@@ -712,7 +660,7 @@ function randomQuotes() {
     tweetButton(randomNum);
 
   } else {
-    resultQuote = element.innerHTML = '<div class="warning"><span>WARNING</span><p> Mago, find somewhere else to stick your cock. <span class="cursor blink">&#9646;</span></p></div>';
+    resultQuote = element.innerHTML = '<div class="warning"><span>WARNING</span><p> you have reached the quotes <span class="cursor blink">&#9646;</span></p></div>';
     console.log('No more new quotes!');
   }
 
