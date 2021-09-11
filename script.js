@@ -1,6 +1,6 @@
 var quotes = [{
-  quote: 'Time is a flat circle.',
-  author: 'Rust Cohle (True Detective)',
+  quote: 'It\'s one thing to question your mind. It\'s another to question your eyes and ears. But then again, isn\'t it all the same? Our senses just mediocre inputs for our brain? Sure, we rely on them, trust they accurately portray the real world around us. But what if the haunting truth is they can\'t? That what we perceive isn\'t the real world at all, but just our mind\'s best guess? That all we really have is a garbled reality, a fuzzy picture we will never truly make out?',
+  author: 'Elliot (Mr Robot)',
   link: 'javascript:void(0);'
 }, {
   quote: 'Optimal tip-to-tip efficiency.',
@@ -43,28 +43,12 @@ var quotes = [{
   author: 'Spartacus',
   link: '#'
 }, {
-  quote: 'He\'s hungry. My nipples are of no use to him.',
-  author: 'Derek Shepherd (Grey’s Anatomy)',
-  link: '#'
-}, {
   quote: 'You ever heard the saying,\"You run into an asshole in the morning, you ran into an asshole. You run into assholes all day, you\'re the asshole\". ',
   author: 'Raylan Givens (Justified)',
   link: '#'
 }, {
-  quote: 'All men must die. But we are not men.',
-  author: 'Daenerys Targaryen (Game of Thrones)',
-  link: '#'
-}, {
   quote: 'I\'m scared that I\'m not myself in here ... and I\'m scared that I\'m.',
   author: 'Piper Chapman (Orange is the New Black)',
-  link: '#'
-}, {
-  quote: 'My body is very attracted to your body, but when you speak, my brain gets angry.',
-  author: 'Mindy Lahiri (The Mindy Project)',
-  link: '#'
-}, {
-  quote: 'You know, there are two things in life I believe a person should hold on to for as long as possible : virginity and skepticism. Surprisingly, I already lost the first thing so I\'m going to hold on to the second one for as long as possible',
-  author: 'Frank Irving (Sleepy Hollow)',
   link: '#'
 }, {
   quote: 'I know violence isn\'t the answer ... but it is.',
@@ -99,10 +83,6 @@ var quotes = [{
   author: 'Jack Hodgins (Bones)',
   link: '#'
 }, {
-  quote: 'Drinking and lust. No man can match me at these things. I\'m the god of tits and wine.',
-  author: 'Tyrion Lannister (Game of Thrones)',
-  link: '#'
-}, {
   quote: 'I should be upstairs grooming my hero hairs.',
   author: 'Stefan Salvatore (The Vampire Diaries)',
   link: '#'
@@ -131,14 +111,6 @@ var quotes = [{
   author: 'Dexter Morgan (Dexter)',
   link: '#'
 }, {
-  quote: 'Pain or damage don\'t end the world. Or despair, or f*cking beatings. The world ends when you\'re dead. Until then, you got more punishment in store. Stand it like a man ... and give some back.',
-  author: 'Al Swearengen (Deadwood)',
-  link: '#'
-}, {
-  quote: 'A Lannister always pays his debts.',
-  author: 'Lannister house motto (Game of thrones)',
-  link: '#'
-}, {
   quote: 'I’m not in the meth business. I’m in the empire business.',
   author: 'Walter White (Breaking Bad)',
   link: '#'
@@ -161,10 +133,6 @@ var quotes = [{
 }, {
   quote: 'How you expect to run with the wolves come night, when you spend all day sparrin’ with the puppies?',
   author: 'Omar Little (The Wire)',
-  link: '#'
-}, {
-  quote: 'What use is an unloaded gun?',
-  author: 'Tony Soprano (The sopranos)',
   link: '#'
 }, {
   quote: 'The man who passes the sentence should swing the sword.',
@@ -229,10 +197,6 @@ var quotes = [{
 }, {
   quote: 'Let me give you some advice, bastard: Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.',
   author: 'Tyrion Lannister (Game of thrones)',
-  link: '#'
-}, {
-  quote: 'Motherfucker, I will punk your ass for sayin\' some shit.',
-  author: 'Stringer Bell (The wire)',
   link: '#'
 }, {
   quote: 'Shoot me again, you best pray I’m dead.',
