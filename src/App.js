@@ -5,6 +5,7 @@ function App() {
       <html>
           <body>
       <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Source+Code+Pro" rel="stylesheet" />
+      <link rel="stylesheet" href="./style.css" />
        <div class="container">
        <script src="./script.js"></script>
           <div class="wrapper quote-machine border blue">
