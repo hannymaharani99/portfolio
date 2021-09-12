@@ -7,14 +7,38 @@ var quotes = [{
   author: 'The guys of Silicon Valley',
   link: '#'
 }, {
+  quote: 'And that, kids, is how I met your mother.',
+  author: 'Ted Mosby',
+  link: '#'
+}, {
   quote: 'sometimes I\'m tired of this world',
   author: 'me probably',
+  link: '#'
+}, {
+  quote: 'I’m willing to let your child wither and die inside you if that’s what’s required.',
+  author: 'Claire Underwood (House of cards)',
+  link: '#'
+}, {
+  quote: 'I’m the thing that needs to be fixed. I’m the thing that needs to be handled. I’m the scandal, and the way to deal with a scandal is to shut it down.',
+  author: 'Olivia Pope (Scandal)',
   link: '#'
 }, {
   quote: 'I wish I was the monster you think I am. I wish I had enough poison for the whole pack of you. I would gladly give my life to watch you all swallow it.',
   author: 'Tyrion Lannister (Game of thrones)',
   link: '#'
-},  {
+}, {
+  quote: 'If you want me, earn me',
+  author: 'Olivia Pope (Scandal)',
+  link: '#'
+}, {
+  quote: 'May his death satisfy you.',
+  author: 'Gustavo Fring',
+  link: '#'
+}, {
+  quote: 'Not great, Bob',
+  author: 'Pete Campbell (Mad Men)',
+  link: '#'
+}, {
   quote: 'There is no greater victory than to fall from this earth... a free man',
   author: 'Spartacus',
   link: '#'
@@ -29,6 +53,10 @@ var quotes = [{
 }, {
   quote: 'I know violence isn\'t the answer ... but it is.',
   author: 'Drita D’Avanzo (Mob Wives)',
+  link: '#'
+}, {
+  quote: 'I want to see your tail',
+  author: 'Helena (Orphan Black)',
   link: '#'
 }, {
   quote: 'You can\'t control what I wanna do. If I wanna die, I\m gonna die',
@@ -68,6 +96,10 @@ var quotes = [{
   link: '#'
 }, {
   quote: 'I have killed two people since midnight; I haven\'t slept in over 24 hours. So maybe ... maybe you should be a little more afraid of me than you are right now.',
+  author: 'Jack Bauer (24)',
+  link: '#'
+}, {
+  quote: 'You probably don’t think I could force this towel down your throat, but trust me I can. All the way. Except I’ll hold onto this little bit at the end. When your stomach starts to digest the towel, I’ll pull it out. Taking your stomach lining with it. Most people take about a week to die. It’s very painful.',
   author: 'Jack Bauer (24)',
   link: '#'
 }, {
@@ -119,6 +151,10 @@ var quotes = [{
   author: 'Ron Swanson (Parks and recreation)',
   link: '#'
 }, {
+  quote: 'I\'m the man who has the ball. I\'m the man who can throw it faster than fuck. So that is why I am better than everyone in the world. Kiss my ass and suck my dick ... everyone.',
+  author: 'Kenny Powers (Eastbound & down)',
+  link: '#'
+}, {
   quote: 'You clearly don\'t know who you\'re talking to, so let me clue you in. I am not in danger, Skyler. I am the danger. A guy opens his door and gets shot, and you think that of me? No! I am the one who knocks!',
   author: 'Walter White (Breaking bad)',
   link: '#'
@@ -159,8 +195,20 @@ var quotes = [{
   author: 'Gustavo Fring (Breaking bad)',
   link: '#'
 }, {
+  quote: 'Let me give you some advice, bastard: Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.',
+  author: 'Tyrion Lannister (Game of thrones)',
+  link: '#'
+}, {
   quote: 'Shoot me again, you best pray I’m dead.',
   author: 'Daryl Dixon (The walking dead)',
+  link: '#'
+}, {
+  quote: 'Now : SAY MY NAME.',
+  author: 'Walter White (Breaking bad)',
+  link: '#'
+}, {
+  quote: 'Boy, you got me confused with a man who repeats himself.',
+  author: 'Omar Little (The wire)',
   link: '#'
 }, {
   quote: 'It\'s one thing to question your mind. It\'s another to question your eyes and ears. But then again, isn\'t it all the same? Our senses just mediocre inputs for our brain? Sure, we rely on them, trust they accurately portray the real world around us. But what if the haunting truth is they can\'t? That what we perceive isn\'t the real world at all, but just our mind\'s best guess? That all we really have is a garbled reality, a fuzzy picture we will never truly make out?',
@@ -287,8 +335,24 @@ var quotes = [{
   author: 'Mike (Breaking Bad)',
   link: '#',
 }, {
+  quote: 'Sitting around, smoking marijuana, eating Cheetos and masturbating do not constitute \'plans.\'',
+  author: 'Walter (Breaking Bad)',
+  link: '#',
+}, {
+  quote: 'Chick\'s got an ass like an onion...makes me want to cry.',
+  author: 'Hank (Breaking bad)',
+  link: '#',
+}, {
+  quote: 'Shut the fuck up. Let me die in peace.',
+  author: 'Mike (Breaking bad)',
+  link: '#',
+}, {
   quote: 'We\'re all on the same page. The one that says, if I can\'t kill you, you\'ll sure as shit wish you were dead.',
   author: 'Jesse (Breaking bad)',
+  link: '#',
+}, {
+  quote: 'Fuck you, and your eyebrows!',
+  author: 'Walter (Breaking Bad)',
   link: '#',
 }, {
   quote: 'Yeah, bitch! Magnets!',
@@ -299,8 +363,16 @@ var quotes = [{
   author: 'Jesse (Breaking bad)',
   link: '#',
 }, {
+  quote: 'When you have children, you always have family. They will always be your priority, your responsibility. And a man, a man provides. And he does it even when he\'s not appreciated or respected or even loved. He simply bears up and he does it. Because he\'s a man.',
+  author: 'Gus Fring (Breaking Bad)',
+  link: '#',
+}, {
   quote: 'We\'re done when I say we\'re done.',
   author: 'Walter (Breaking Bad)',
+  link: '#',
+}, {
+  quote: 'Someone has to protect this family from the man who protects this family.',
+  author: 'Skyler (Breaking bad)',
   link: '#',
 }, {
   quote: 'This is my own private domicile and I will not be harassed...bitch!',
@@ -331,12 +403,112 @@ var quotes = [{
   author: 'Dexter',
   link: '#',
 }, {
+  quote: 'Blood. Sometimes it sets my teeth on edge, other times it helps me control the chaos.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'There are no secrets in life, just hidden truths that lie beneath the surface.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'I dream. I dream I\'m floating on the surface of my own life. Watching it unfold. Observing it. I\'m the outsider looking in.',
+  author: 'Dexter',
+  link: '#',
+}, {
   quote: 'All you can do is play along at life, and hope that sometimes you get it right.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'I love Halloween. The one time of year when everyone wears a mask… not just me. People think it\'s fun to pretend you\'re a monster. Me, I spend my life pretending I’m not.',
   author: 'Dexter',
   link: '#',
 }, {
   quote: 'I prefer to think of myself as a master of disguise. Everyone hides who they are at least some of the time. Sometimes you bury that part of yourself so deeply you have to be reminded it\'s even there at all. And sometimes you just want to forget who you are altogether.',
   author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'You never can truly know anyone.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'One man\'s tattoos are another man\'s blood slides.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'I\'m on edge. Thirty-eight days, sixteen hours, and twelve minutes have passed since I killed my brother.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'I should warn you Sergeant, you can\'t play on my feelings. I don\'t have any.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'I passed through the flames and rose from the ashes, again.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'Most normal people enjoy a sacred pact with society – live a good life and society will take care of you. But if society drops the ball, then someone else has to pick up the slack. That\'s where I come in.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'In the land of predators, a lion never fears the jackal.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'It\'s said that everything is connected to everything. The butterfly-effect. You drop a pebble into a pond and the ripples radiate outwards touching and affecting everything.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'It\'s almost poetic – one serial killer ending the 30-year reign of another.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'No matter where we go, we take ourselves, and our damage, with us.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'Watch any western and you\'ll know a man out for vengeance should dig two graves. One for his enemy, and one for himself.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'Christmas is a time of expectation. If you\'re good, a red-suited fat man will break into your house and leave you presents. But Santa Claus doesn\'t exist. The most wonderful time of the year celebrates a lie.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'We all make rules for ourselves. It\'s these rules that helps define who we are. So when we break those rules, we risk losing ourselves and becoming something unknown.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'I should know better than to count on the future. All you can ever beleive in is now - this moment - because in a blink everything can change.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'The body forms scar tissues to close a wound, eventually scars fade who knows with enough time you might not even remember how you got them.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'There are no two stronger human emotions than fear and love. In many ways, they\'re not so different. Both can make you do crazy things.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'When you\'re losing control of your entire life it helps to focus on what you\'re goot at...',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'If you beleive that God makes miracles, you have to wonder if Satan has a few up his sleeves.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'Light can not exist without darkness. Each has it\'s purpose. And if there is a purpose to my darkness, maybe it\'s to bring some balance to the world.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'Life doesn\'t have to be perfect , it just has to be lived.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'Surprise Motherfucker',
+  author: 'Doakes (Dexter)',
   link: '#',
 }, {
   quote: 'I can always see other people\'s problems more clearly than me.',
@@ -347,8 +519,20 @@ var quotes = [{
   author: 'Dexter',
   link: '#',
 }, {
+  quote: 'People fake a lot of human interactions, bit I feel like I fake them all, and I fake them very well.',
+  author: 'Dexter',
+  link: '#',
+}, {
   quote: 'Monsters don\'t get to live happily ever after.',
   author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'I see their pain. On some level I even understand their pain. I just can\'t feel their pain.',
+  author: 'Dexter',
+  link: '#',
+}, {
+  quote: 'Whatever you say',
+  author: 'Someone',
   link: '#',
 }, {
   quote: 'They showed themselves, the top 1% of the 1%, the ones in control, the ones who play God without permission. And now I\'m gonna take them down',
