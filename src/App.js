@@ -1,7 +1,7 @@
 import './script';
-import React from 'react';
 
-function App() {
+export default App() 
+{
     return (
       <div class="wrapper quote-machine border blue">
       <header class="border blue">
@@ -25,5 +25,3 @@ function App() {
     )
   }
 
-
-export default App;
