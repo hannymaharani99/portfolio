@@ -1,7 +1,8 @@
 import './script';
+import React from 'react';
 
-export default App() 
-{
+class App extends React.Component() {
+  render(){
     return (
       <div class="wrapper quote-machine border blue">
       <header class="border blue">
@@ -24,4 +25,6 @@ export default App()
     </div>
     )
   }
+  }
 
+export default App;
